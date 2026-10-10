@@ -1,0 +1,28 @@
+{
+  "name": "ros-website",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "^15",
+    "react": "^19",
+    "react-dom": "^19",
+    "@supabase/supabase-js": "^2",
+    "@supabase/ssr": "^0.5"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "tailwindcss": "^3.4",
+    "postcss": "^8",
+    "autoprefixer": "^10",
+    "vitest": "^2",
+    "@types/react": "^19",
+    "@types/node": "^22",
+    "@types/react-dom": "^19"
+  }
+}
